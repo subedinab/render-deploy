@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 import os
 app = FastAPI()
 load_dotenv()
-PORT= "8000"
+PORT= "10000"
 
 @app.get("/")
 async def root():
